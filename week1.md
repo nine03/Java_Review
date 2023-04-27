@@ -47,9 +47,16 @@ JVM은 'Java Virtual Machine'을 줄인 것으로 직역하면 '자바를 실행
 JDK - 자바개발도구(Java Development Kit) </br>
 JDK의 bin디렉토리에 있는 주요 실행파일들은 다음과 같다.</br>
 - javac.exe : 자바 컴파일러, 자바소스코드를 바이트코드로 컴파일한다. </br>
-c:\jdk1.8\work\javac Hello.java </br>
+c:\jdk1.8\work>javac Hello.java </br>
 - java.exe : 자바 인터프리터, 컴파일러가 생성한 바이트코드를 해석하고 실행한다. </br>
+c:\jdk1.8\work>java Hello </br>
+javap.exe 역어셈블러, 컴파일된 클래스파일을 원래의 소스로 변환한다. </br>
+c:\jdk1.8\work>javap Hello > Hello.java </br>
 
+바이코드 - JVM이 이해할 수 있는 기계어, JVM은 바이트코드를 해당 OS의 기계어로 변환하여 OS로 전달함. </br>
 
+javadoc.exe 자동문서생성기, 소스파일에 있는 주석 ```(/** */)```을 이용하여 Java API문서와 같은 형식의 문서를 자동으로 생성한다. </br>
+c:\jdk1.8\work>javadoc Hello.java </br>
+jar.exe 압축프로그램, 클래스파일과 프로그램의 실행에 관련된 파일을 하나의 jar파일(.jar)로 압축하거나 압축해제한다. </br>
 
 - 这个项目是我为了重新学习Java而做的项目（이 프로젝트는 내가 Java를 다시 공부하기위해서 만든 프로젝트입니다.）

@@ -58,5 +58,11 @@ c:\jdk1.8\work>javap Hello > Hello.java </br>
 - javadoc.exe 자동문서생성기, 소스파일에 있는 주석 ```(/** */)```을 이용하여 Java API문서와 같은 형식의 문서를 자동으로 생성한다. </br>
 c:\jdk1.8\work>javadoc Hello.java </br>
 - jar.exe 압축프로그램, 클래스파일과 프로그램의 실행에 관련된 파일을 하나의 jar파일(.jar)로 압축하거나 압축해제한다. </br>
+압출할 때: c:\jdk1.8\work>jar cvf Hello.jar Hello1.class Hello2.class
+압축 풀 때: c:\jdk1.8\work>jar xvf Hello.jar
+
+JRE - 자바 실행환경(Java Runtime Environment), 자바로 작성된 응용프로그램이 실행되기 위한 최소환경.
+JDK = JRE + 개발에 필요한 실행파일(javac.exe등)
+JRE = JVM + 클래스라이브러리(Java API)
 
 - 这个项目是我为了重新学习Java而做的项目（이 프로젝트는 내가 Java를 다시 공부하기위해서 만든 프로젝트입니다.）
